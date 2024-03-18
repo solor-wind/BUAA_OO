@@ -1,0 +1,36 @@
+{
+  "test_num": 500,
+  "term_limit":4,
+  "factor_limit":4,
+  "floor": 5,
+
+
+  "deltaFactor":0.2,
+  "expFunFactor": 0.2,
+  "myFunFactor": 0.15,
+  "exprFactor": 0.15,
+
+  "expFunFactor_exp": 0.2,
+  "exprFactor_exp": 0.2,
+  "constFactor_zero": 0.05,
+  "constFactor_big": 0.05,
+  
+
+  "blank_prob": 0.2,
+  "sign_prob": 0.5,
+  "zero_prob": 0.1,
+
+
+  "automyFun": true,
+  "myFun_floor": 2,
+  "myFun_term_limit": 3,
+  "myFun_factor_limit": 3,
+  "myFun_name": ["f"],
+  "myFun_parameter": [["x"]],
+  "myFun_function": ["x^2"],
+
+  "jarPath" : "D:\\study\\OO\\OO\\1.3\\互测\\天权星\\out\\artifacts\\_jar\\天权星.jar",
+  "SetClock" : true,
+  "ClockTime" : 10
+    
+}
