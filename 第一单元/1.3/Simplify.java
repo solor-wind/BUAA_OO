@@ -147,7 +147,7 @@ public class Simplify {
             HashMap<Unit, BigInteger> newfactor = new HashMap<>();
             for (Unit i : factor.keySet()) {
                 newfactor.put(i, factor.get(i).divide(gcd));
-            
+            }
             String tmp2 = print_exp(newfactor);
             if (tmp2.length() + gcd.toString().length() + 1 < tmp1.length()) {
                 stringFactor.add(tmp2);
